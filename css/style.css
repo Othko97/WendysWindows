@@ -301,4 +301,28 @@ p {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif; }
 
+nav li {
+  display: inline-block;
+  margin: 0 0.3em; }
+nav a {
+  text-decoration: none;
+  padding: 0.7em 0.9em;
+  color: #fff;
+  background: #7b1e7a;
+  border-radius: 3px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  position: relative;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+  transition: 0.2s; }
+  nav a:hover {
+    background: #a428a3;
+    top: -2px;
+    box-shadow: 0px 2px 3px 2px rgba(0, 0, 0, 0.15); }
+  nav a:active {
+    background: #7b1e7a;
+    top: 0;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2); }
+
 /*# sourceMappingURL=style.css.map */
