@@ -64,6 +64,9 @@ table {
   display: table;
   clear: both; }
 
+.container {
+  width: 70%; }
+
 .m-1 {
   margin: 1em; }
 
@@ -274,7 +277,6 @@ table {
 .plr-5 {
   padding: 0 5em; }
 
-<<<<<<< HEAD
 .hero {
   height: 70%;
   width: 100%;
@@ -288,7 +290,7 @@ table {
 header {
   height: 1000px;
   width: 100%; }
-=======
+
 body {
   background: #eeeeee; }
 
@@ -299,6 +301,5 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif; }
->>>>>>> a2dc2340627537fdba4f4f55231faccb21f0a7eb
 
 /*# sourceMappingURL=style.css.map */
