@@ -274,6 +274,7 @@ table {
 .plr-5 {
   padding: 0 5em; }
 
+<<<<<<< HEAD
 .hero {
   height: 70%;
   width: 100%;
@@ -287,5 +288,17 @@ table {
 header {
   height: 1000px;
   width: 100%; }
+=======
+body {
+  background: #eeeeee; }
+
+p {
+  color: #493548;
+  line-height: 1.6;
+  font-family: "Montserrat", sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif; }
+>>>>>>> a2dc2340627537fdba4f4f55231faccb21f0a7eb
 
 /*# sourceMappingURL=style.css.map */
