@@ -274,21 +274,19 @@ table {
 .plr-5 {
   padding: 0 5em; }
 
-<<<<<<< HEAD
 .hero {
   height: 70%;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%; }
+  background-size: cover; }
 
 .index-hero {
   background-image: url("../resources/images/hero.jpg"); }
 
 header {
-  height: 1000px;
-  width: 100%; }
-=======
+  height: 40em; }
+
 body {
   background: #eeeeee; }
 
@@ -299,6 +297,5 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif; }
->>>>>>> a2dc2340627537fdba4f4f55231faccb21f0a7eb
 
 /*# sourceMappingURL=style.css.map */
