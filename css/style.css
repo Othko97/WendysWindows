@@ -65,8 +65,22 @@ table {
   clear: both; }
 
 .container {
-  width: 70%; }
+  width: 75%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; }
 
+@media (max-width: 600px) {
+  .container {
+    width: 90%; } }
+@media (max-width: 800px) {
+  .container {
+    width: 80%; } }
 .m-1 {
   margin: 1em; }
 
@@ -83,10 +97,12 @@ table {
   margin-right: 1em; }
 
 .mtb-1 {
-  margin: 1em 0; }
+  margin-top: 1em;
+  margin-bottom: 1em; }
 
 .mlr-1 {
-  margin: 0 1em; }
+  margin-left: 1em;
+  margin-right: 1em; }
 
 .p-1 {
   padding: 1em; }
@@ -104,10 +120,12 @@ table {
   padding-right: 1em; }
 
 .ptb-1 {
-  padding: 1em 0; }
+  padding-top: 1em;
+  padding-bottom: 1em; }
 
 .plr-1 {
-  padding: 0 1em; }
+  padding-left: 1em;
+  padding-right: 1em; }
 
 .m-2 {
   margin: 2em; }
@@ -125,10 +143,12 @@ table {
   margin-right: 2em; }
 
 .mtb-2 {
-  margin: 2em 0; }
+  margin-top: 2em;
+  margin-bottom: 2em; }
 
 .mlr-2 {
-  margin: 0 2em; }
+  margin-left: 2em;
+  margin-right: 2em; }
 
 .p-2 {
   padding: 2em; }
@@ -146,10 +166,12 @@ table {
   padding-right: 2em; }
 
 .ptb-2 {
-  padding: 2em 0; }
+  padding-top: 2em;
+  padding-bottom: 2em; }
 
 .plr-2 {
-  padding: 0 2em; }
+  padding-left: 2em;
+  padding-right: 2em; }
 
 .m-3 {
   margin: 3em; }
@@ -167,10 +189,12 @@ table {
   margin-right: 3em; }
 
 .mtb-3 {
-  margin: 3em 0; }
+  margin-top: 3em;
+  margin-bottom: 3em; }
 
 .mlr-3 {
-  margin: 0 3em; }
+  margin-left: 3em;
+  margin-right: 3em; }
 
 .p-3 {
   padding: 3em; }
@@ -188,10 +212,12 @@ table {
   padding-right: 3em; }
 
 .ptb-3 {
-  padding: 3em 0; }
+  padding-top: 3em;
+  padding-bottom: 3em; }
 
 .plr-3 {
-  padding: 0 3em; }
+  padding-left: 3em;
+  padding-right: 3em; }
 
 .m-4 {
   margin: 4em; }
@@ -209,10 +235,12 @@ table {
   margin-right: 4em; }
 
 .mtb-4 {
-  margin: 4em 0; }
+  margin-top: 4em;
+  margin-bottom: 4em; }
 
 .mlr-4 {
-  margin: 0 4em; }
+  margin-left: 4em;
+  margin-right: 4em; }
 
 .p-4 {
   padding: 4em; }
@@ -230,10 +258,12 @@ table {
   padding-right: 4em; }
 
 .ptb-4 {
-  padding: 4em 0; }
+  padding-top: 4em;
+  padding-bottom: 4em; }
 
 .plr-4 {
-  padding: 0 4em; }
+  padding-left: 4em;
+  padding-right: 4em; }
 
 .m-5 {
   margin: 5em; }
@@ -251,10 +281,12 @@ table {
   margin-right: 5em; }
 
 .mtb-5 {
-  margin: 5em 0; }
+  margin-top: 5em;
+  margin-bottom: 5em; }
 
 .mlr-5 {
-  margin: 0 5em; }
+  margin-left: 5em;
+  margin-right: 5em; }
 
 .p-5 {
   padding: 5em; }
@@ -272,14 +304,20 @@ table {
   padding-right: 5em; }
 
 .ptb-5 {
-  padding: 5em 0; }
+  padding-top: 5em;
+  padding-bottom: 5em; }
 
 .plr-5 {
-  padding: 0 5em; }
+  padding-left: 5em;
+  padding-right: 5em; }
 
 .hero {
+<<<<<<< HEAD
   height: 100%;
   width: 100%;
+=======
+  height: 40em;
+>>>>>>> 16db8ed4b834d1614d62967b78361be7cfb3f046
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -287,14 +325,17 @@ table {
 .index-hero {
   background-image: url("../resources/images/hero.jpg"); }
 
+<<<<<<< HEAD
 header {
   height: 40em; }
 
+=======
+>>>>>>> 16db8ed4b834d1614d62967b78361be7cfb3f046
 @media (max-width: 480px) {
   header {
     height: 30em; } }
 body {
-  background: #eeeeee; }
+  background: #fefefe; }
 
 p {
   color: #493548;
@@ -303,6 +344,10 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif; }
+
+h2 {
+  font-size: 1.7em;
+  letter-spacing: 1px; }
 
 nav {
   padding-top: 2em;
@@ -371,6 +416,7 @@ nav {
 @media (max-width: 760px) and (min-width: 600px) {
   nav a {
     font-size: 1em; } }
+<<<<<<< HEAD
 .row {
   margin: 5% 12.5%;
   display: -webkit-box;
@@ -384,5 +430,23 @@ nav {
   width: 30%;
   display: inline-block;
   text-align: center; }
+=======
+.card {
+  background: #ffffff;
+  box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  width: 27%;
+  margin: 1.5em 1em;
+  padding: 1.5em; }
+
+@media (max-width: 600px) {
+  .card {
+    width: 90%; } }
+@media (max-width: 768px) {
+  .card {
+    width: 35%; } }
+.card-title {
+  padding-bottom: 1em; }
+>>>>>>> 16db8ed4b834d1614d62967b78361be7cfb3f046
 
 /*# sourceMappingURL=style.css.map */
