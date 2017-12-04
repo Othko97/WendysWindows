@@ -278,7 +278,7 @@ table {
   padding: 0 5em; }
 
 .hero {
-  height: 70%;
+  height: 100%;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -288,11 +288,11 @@ table {
   background-image: url("../resources/images/hero.jpg"); }
 
 header {
-  height: 60em; }
+  height: 40em; }
 
 @media (max-width: 480px) {
   header {
-    height: 40em; } }
+    height: 30em; } }
 body {
   background: #eeeeee; }
 
@@ -371,19 +371,18 @@ nav {
 @media (max-width: 760px) and (min-width: 600px) {
   nav a {
     font-size: 1em; } }
-
 .row {
   margin: 5% 12.5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  display: flex; }
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 .col33 {
   width: 30%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex; }
+  display: inline-block;
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
