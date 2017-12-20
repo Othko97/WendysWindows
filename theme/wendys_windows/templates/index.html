@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Wendy's Windows{% endblock %}
+{% block heroclass %}hero index-hero{% endblock %}
+{% block content %}
+  <section class="testimonials container u-text-center">
+    {% for category, articles in categories %}
+    {% if category.name.lower() == 'testimonials' %}
+      {% for article in articles[:3] %}
+        <div class="card">
+          <h2 class="card-title">{{ article.title }}</h2>
+          <p>{{ article.content }}</p>
+        </div>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+  </section>
+{% endblock %}
