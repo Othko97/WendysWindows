@@ -312,25 +312,17 @@ table {
   padding-right: 5em; }
 
 .hero {
-<<<<<<< HEAD
-  height: 100%;
-  width: 100%;
-=======
   height: 40em;
->>>>>>> 16db8ed4b834d1614d62967b78361be7cfb3f046
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
 
+.header {
+  height: 40em; }
+
 .index-hero {
   background-image: url("../resources/images/hero.jpg"); }
 
-<<<<<<< HEAD
-header {
-  height: 40em; }
-
-=======
->>>>>>> 16db8ed4b834d1614d62967b78361be7cfb3f046
 @media (max-width: 480px) {
   header {
     height: 30em; } }
@@ -416,21 +408,6 @@ nav {
 @media (max-width: 760px) and (min-width: 600px) {
   nav a {
     font-size: 1em; } }
-<<<<<<< HEAD
-.row {
-  margin: 5% 12.5%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
-.col33 {
-  width: 30%;
-  display: inline-block;
-  text-align: center; }
-=======
 .card {
   background: #ffffff;
   box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.2);
@@ -447,6 +424,5 @@ nav {
     width: 35%; } }
 .card-title {
   padding-bottom: 1em; }
->>>>>>> 16db8ed4b834d1614d62967b78361be7cfb3f046
 
 /*# sourceMappingURL=style.css.map */
