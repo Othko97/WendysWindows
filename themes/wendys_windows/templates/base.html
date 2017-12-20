@@ -16,7 +16,7 @@
 <body>
   <header>
     {% block header %}
-    <div class="{{ heroclass }}">
+    <div class="{% block heroclass %}{% endblock %}">
       <nav class="u-clear">
         <div class="icon-container u-clear">
           <i class="fa fa-bars u-float-right"></i>

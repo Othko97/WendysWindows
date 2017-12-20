@@ -1,44 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css" type="text/css">
-  <title>Wendy's Windows</title>
-</head>
-
-<body>
-  <header>
-    <div class="hero index-hero">
-      <nav class="u-clear">
-        <div class="icon-container u-clear">
-          <i class="fa fa-bars u-float-right"></i>
-        </div>
-        <ul class="u-text-center" id="navbar">
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Products</a>
-          </li>
-          <li>
-            <a href="#">Services</a>
-          </li>
-          <li>
-            <a href="#">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  
+{% extends "base.html" %}
+{% block title %}Wendy's Windows{% endblock %}
+{% block heroclass %}hero, index-hero{% endblock %}
+{% block content %}
   <section class="testimonials container u-text-center">
     <div class="card">
       <h2 class="card-title">John Doe</h2>
@@ -53,11 +16,4 @@
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, id ipsum quaerat ea nulla iure deleniti illo blanditiis eaque sapiente.</p>
     </div>
   </section>
-
-  <footer>
-    <p>&copy;The Brothers Coldrick 2017</p>
-  </footer>
-  <script src="scripts/nav.js"></script>
-</body>
-
-</html>
+{% endblock %}
