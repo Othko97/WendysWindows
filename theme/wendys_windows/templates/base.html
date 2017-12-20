@@ -23,27 +23,22 @@
         </div>
         <ul class="u-text-center" id="navbar">
           <li>
-            <a href="index.html">Home</a>
+            <a href="/" {% if not page and not article %}class='current-page'{% endif %}>Home</a>
           </li>
+          {% for pg in pages %}
           <li>
-            <a href="about.html">About</a>
+            <a href="/{{ pg.url }}" {% if pg == page %}class='current-page'{% endif %}>{{ pg.title }}</a>
           </li>
-          <li>
-            <a href="#">Products</a>
-          </li>
-          <li>
-            <a href="#">Services</a>
-          </li>
-          <li>
-            <a href="contact.html">Contact Us</a>
-          </li>
+          {% endfor %}
         </ul>
       </nav>
     </div>
   {% endblock %}
   </header>
   
-  <section>{% block content %}{% endblock %}</section>
+  <section>
+    {% block content %}{% endblock %}
+  </section>
 
   <footer>
     {% block footer %}
